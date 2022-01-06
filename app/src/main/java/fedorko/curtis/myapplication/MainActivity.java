@@ -10,6 +10,8 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import fedorko.curtis.myapplication.Model.FGC;
+import fedorko.curtis.myapplication.Model.Phrase;
 import fedorko.curtis.myapplication.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,4 +36,13 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
+    public double onCalculate(double currgrade, double gradewant, double percleft) {
+        FGC f = new FGC();
+       return  f.whatINeed(currgrade, gradewant, percleft);
+    }
+
+    public String getExtra(double a) {
+        Phrase p = new Phrase();
+        return p.generatePhrase(a);
+    }
 }

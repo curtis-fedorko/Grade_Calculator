@@ -1,3 +1,5 @@
+package fedorko.curtis.myapplication.Model;
+
 import java.util.*;
 public class FGC {
     public double gradeLeft;
