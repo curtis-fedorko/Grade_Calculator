@@ -3,4 +3,64 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_text">Welcome to the grade calculator!</string>
+    <string name="curr_grade_string">"Current Grade: "</string>
+    <string name="final_worth_string">What is your final worth?</string>
+    <string name="desired_grade_string">Desired Grade:</string>
+    <string name="calculate_string">Calculate</string>
+    <string name="profile_message_string">Profile feature coming soon… Stay Tuned!!</string>
+    <string name="title_profile">Profile</string>
+    <string name="single_semester_string">Calculate GPA for one semester</string>
+    <string name="reset_text"><u>Reset</u></string>
+    <string name="cumulative_gpa_string">Calculate cumulative GPA</string>
+    <string name="single_sem_welcome">Single Semester GPA Calculator</string>
+    <string name="cum_sem_welcome">Cumulative GPA Calculator</string>
+    <string name="courses_taken_string">How Many Graded Courses Are You Taking</string>
+    <string name="semesters_taken_string">How many semesters have you completed?</string>
+    <string name="many_courses_string">That seems unreasonable, try entering fewer.</string>
+    <string name="GPA_sem1">GPA 1</string>
+    <string name="GPA_sem2">GPA 2</string>
+    <string name="GPA_sem3">GPA 3</string>
+    <string name="GPA_sem4">GPA 4</string>
+    <string name="GPA_sem5">GPA 5</string>
+    <string name="GPA_sem6">GPA 6</string>
+    <string name="GPA_sem7">GPA 7</string>
+    <string name="GPA_sem8">GPA 8</string>
+    <string name="GPA_sem9">GPA 9</string>
+    <string name="GPA_sem10">GPA 10</string>
+    <string name="this_sem_effectString"><u>See How this semester will affect your GPA</u></string>
+    <string name="current_gpa_string">Your current GPA:</string>
+    <string name="GPA_scale">What is your GPA scale</string>
+    <string name="affect_gpa_welcome">GPA affect calculator</string>
+    <string name="parts_of_grade_string">How many parts make up your grade?</string>
+    <string name="course_grade_welcome">Welcome to the Course grade Calculator</string>
+    <string-array name="choices_array">
+        <item>Our Calculators:</item>
+        <item>Final Grade Calculator</item>
+        <item>GPA Calculator</item>
+    </string-array>
+    <string-array name="grades_array">
+        <item>Select:</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="scales_array">
+        <item>Select:</item>
+        <item>4.0</item>
+        <item>5.0</item>
+        <item>5.2</item>
+    </string-array>
 </resources>

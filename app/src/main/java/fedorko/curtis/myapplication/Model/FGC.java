@@ -6,10 +6,10 @@ public class FGC {
     Scanner sc = new Scanner(System.in);
     public double desiredgrade;
 
-    public double whatINeed(double currgrade, double gradeWant, double percLeft) {
+    public double whatINeed(double currgrade, double gradeWant, double percLeft){
         percLeft = percLeft / 100;
         double percenttowards = 1 - percLeft;
-        double whatyouneed = Math.abs((percenttowards * currgrade) - gradeWant) / (percLeft);
+        double whatyouneed = (gradeWant - (percenttowards * currgrade) ) / (percLeft);
         return whatyouneed;
     }
 

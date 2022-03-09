@@ -1,43 +1,37 @@
-package fedorko.curtis.myapplication.ui.dashboard;
+package fedorko.curtis.myapplication.ui.final_grade_calc;
 
 import android.os.Bundle;
 import android.text.Editable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 
 import fedorko.curtis.myapplication.MainActivity;
-import fedorko.curtis.myapplication.Model.Phrase;
-import fedorko.curtis.myapplication.R;
-import fedorko.curtis.myapplication.databinding.FragmentDashboardBinding;
+import fedorko.curtis.myapplication.databinding.FragmentFinalgradecalculatorBinding;
+import fedorko.curtis.myapplication.databinding.FragmentFinalgradecalculatorBinding;
 
-public class DashboardFragment extends Fragment {
-    private FragmentDashboardBinding binding;
+public class FinalGradeCalcView extends Fragment {
+    private FragmentFinalgradecalculatorBinding binding;
     MainActivity activity;
-    public DashboardFragment(){
-        this.activity = new MainActivity();
+    public FinalGradeCalcView(MainActivity activity){ this.activity = activity;
     }
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        this.binding = FragmentDashboardBinding.inflate(inflater);
+        this.binding = FragmentFinalgradecalculatorBinding.inflate(inflater);
         return this.binding.getRoot();
-
     }
+
     public View getRootView() {
         return this.binding.getRoot();
     }
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         this.binding.button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,6 +52,13 @@ public class DashboardFragment extends Fragment {
                 binding.finalworthtext.setText("");
             }
         });
+        this.binding.backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                activity.onBack();
+            }
+        });
+
     }
 
     @Override
@@ -65,4 +66,5 @@ public class DashboardFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
+
 }

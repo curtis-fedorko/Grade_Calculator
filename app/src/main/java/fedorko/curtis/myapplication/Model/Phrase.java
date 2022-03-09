@@ -15,20 +15,22 @@ public class Phrase {
         this.Good.add("Id focus on other things");
         this.Good.add("Break starts now");
         this.Good.add("Your Hard work payed off");
-        this. Bad.add("When does the library close?");
+        this.Bad.add("When does the library close?");
+        this.Bad.add("Your a** is Grass");
+        this.Good.add("Time for a beverage");
+        this.Bad.add("Uh oh");
         this.Bad.add("When does the library close?");
         this.Bad.add("Pray.");
         this.Bad.add("Not even luck could help you");
-        this.Bad.add("I hope youre religous");
-        this.decent.add("Dont Give up, you can do it");
+        this.Bad.add("I hope you're religous");
+        this.decent.add("Don't Give up, you can do it");
     }
     public String generatePhrase(double grade){
         String outy = "";
-
         if(grade <= 75.0){
             outy = getGood();
         }
-        else if(grade <= 92.0){
+        else if(grade <= 96.0){
             outy = getDecent();
         }
         else{
