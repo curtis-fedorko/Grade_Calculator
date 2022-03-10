@@ -92,7 +92,7 @@
 
     <EditText
         android:id="@+id/gpa2"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -111,7 +111,7 @@
 
     <EditText
         android:id="@+id/gpa1"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -131,7 +131,7 @@
 
     <EditText
         android:id="@+id/gpa3"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -150,7 +150,7 @@
 
     <EditText
         android:id="@+id/gpa4"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -169,7 +169,7 @@
 
     <EditText
         android:id="@+id/gpa5"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -188,7 +188,7 @@
 
     <EditText
         android:id="@+id/gpa6"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -207,7 +207,7 @@
 
     <EditText
         android:id="@+id/gpa7"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -226,7 +226,7 @@
 
     <EditText
         android:id="@+id/gpa8"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -244,7 +244,7 @@
 
     <EditText
         android:id="@+id/gpa9"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -263,7 +263,7 @@
 
     <EditText
         android:id="@+id/gpa10"
-        android:layout_width="63dp"
+        android:layout_width="84dp"
         android:layout_height="52dp"
         android:background="#155875"
         android:backgroundTint="#155875"
@@ -333,24 +333,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" />
-
-    <EditText
-        android:id="@+id/num1"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.413"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" />
+        app:layout_constraintVertical_bias="0.294" />
 
     <EditText
         android:id="@+id/units2"
@@ -361,24 +347,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398" />
-
-    <EditText
-        android:id="@+id/num2"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.413"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398" />
+        app:layout_constraintVertical_bias="0.397" />
 
     <EditText
         android:id="@+id/units3"
@@ -389,24 +361,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.501" />
-
-    <EditText
-        android:id="@+id/num3"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.501" />
+        app:layout_constraintVertical_bias="0.498" />
 
     <EditText
         android:id="@+id/units4"
@@ -417,24 +375,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
-
-    <EditText
-        android:id="@+id/num4"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
+        app:layout_constraintVertical_bias="0.602" />
 
     <EditText
         android:id="@+id/units5"
@@ -445,24 +389,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
-
-    <EditText
-        android:id="@+id/num5"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.413"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.707" />
 
     <EditText
         android:id="@+id/units6"
@@ -473,20 +403,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
-    <EditText
-        android:id="@+id/num6"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.294" />
@@ -500,20 +417,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.397" />
-    <EditText
-        android:id="@+id/num7"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.397" />
@@ -527,20 +431,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
-    <EditText
-        android:id="@+id/num8"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
@@ -554,23 +445,11 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.602" />
-    <EditText
-        android:id="@+id/num9"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602" />
+
     <EditText
         android:id="@+id/units10"
         android:layout_width="63dp"
@@ -580,20 +459,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707" />
-    <EditText
-        android:id="@+id/num10"
-        android:layout_width="63dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.707" />

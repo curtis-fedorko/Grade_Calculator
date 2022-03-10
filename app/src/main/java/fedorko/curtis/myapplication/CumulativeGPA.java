@@ -60,7 +60,6 @@ public class CumulativeGPA extends Fragment {
                         if (semesters == 1) {
                             binding.gpa1.setVisibility(View.VISIBLE);
                             binding.units1.setVisibility(View.VISIBLE);
-                            binding.num1.setVisibility(View.VISIBLE);
                         }
                         if (semesters == 2) {
                             binding.gpa1.setVisibility(View.VISIBLE);
@@ -111,7 +110,6 @@ public class CumulativeGPA extends Fragment {
                             binding.units3.setVisibility(View.VISIBLE);
                             binding.units2.setVisibility(View.VISIBLE);
                             binding.units1.setVisibility(View.VISIBLE);
-                            binding.num1.setVisibility(View.VISIBLE);
                         }
                         if (semesters == 7) {
                             binding.gpa1.setVisibility(View.VISIBLE);
@@ -306,27 +304,25 @@ public class CumulativeGPA extends Fragment {
                 int curr = 0;
                 try{
                   listy.add(Double.parseDouble(binding.gpa1.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa2.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa3.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa4.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa5.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa6.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa7.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa8.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa9.getText().toString()));
-                    listy.add(Double.parseDouble(binding.gpa10.getText().toString()));
                     units.add(Double.parseDouble(binding.units1.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa2.getText().toString()));
                     units.add(Double.parseDouble(binding.units2.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa3.getText().toString()));
                     units.add(Double.parseDouble(binding.units3.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa4.getText().toString()));
                     units.add(Double.parseDouble(binding.units4.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa5.getText().toString()));
                     units.add(Double.parseDouble(binding.units5.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa6.getText().toString()));
                     units.add(Double.parseDouble(binding.units6.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa7.getText().toString()));
                     units.add(Double.parseDouble(binding.units7.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa8.getText().toString()));
                     units.add(Double.parseDouble(binding.units8.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa9.getText().toString()));
                     units.add(Double.parseDouble(binding.units9.getText().toString()));
+                    listy.add(Double.parseDouble(binding.gpa10.getText().toString()));
                     units.add(Double.parseDouble(binding.units10.getText().toString()));
-
-
                 }
                 catch (NumberFormatException e){
                     double gpa = activity.calcCumulativeGPA(listy, units);
