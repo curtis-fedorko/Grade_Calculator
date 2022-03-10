@@ -63,13 +63,15 @@
         app:layout_constraintTop_toBottomOf="@+id/singlesemstatemnt"
         app:layout_constraintVertical_bias="0.21" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextNumberDecimal"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textColor="#FDFCFC"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toEndOf="@+id/current_cum"
@@ -225,7 +227,7 @@
     <Spinner
         android:id="@+id/GPA_scale_spinner"
         android:layout_width="88dp"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:background="#155875"
         android:backgroundTint="#155875"
         android:textColor="#F6F6F5"
@@ -262,10 +264,10 @@
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/singlesemstatemnt"
-        app:layout_constraintVertical_bias="0.121" />
+        app:layout_constraintVertical_bias="0.111" />
 
     <TextView
         android:id="@+id/semesters_taken"
@@ -282,16 +284,16 @@
 
     <TextView
         android:id="@+id/yourgpaTEXT"
-        android:layout_width="201dp"
+        android:layout_width="266dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="28dp"
         android:text="TextView"
         android:textColor="#FAF6F6"
         android:textSize="24sp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.399"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -310,8 +312,8 @@
 
     <TextView
         android:id="@+id/GPA_scale_textview"
-        android:layout_width="215dp"
-        android:layout_height="29dp"
+        android:layout_width="213dp"
+        android:layout_height="33dp"
         android:text="@string/GPA_scale"
         android:textColor="#FAF8F8"
         android:textSize="20sp"
@@ -462,5 +464,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.748" />
+
+    <TextView
+        android:id="@+id/reser_text"
+        android:layout_width="105dp"
+        android:layout_height="53dp"
+        android:text="@string/reset_text"
+        android:textColor="#0E7CAE"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toEndOf="@+id/Calc_single_semGPA"
+        app:layout_constraintTop_toBottomOf="@+id/units10"
+        app:layout_constraintVertical_bias="0.133" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

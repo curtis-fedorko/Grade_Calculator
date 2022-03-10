@@ -636,9 +636,10 @@ public class AffectedGPA extends Fragment {
                     double gpa = activity.calcCumulativeGPA(activity.listy, activity.units);
                     String texty = "Your GPA is " + (float)gpa;
                     activity.listy.remove(gpa1);
-                   // gpa = 0;
+                    activity.units.remove(unitsum);
                     binding.yourgpaTEXT.setText(texty);
                     binding.yourgpaTEXT.setVisibility(View.VISIBLE);
+                    binding.reserText.setVisibility(View.VISIBLE);
                     binding.numClassesNumber.setText("");
                 }
 
@@ -655,6 +656,51 @@ public class AffectedGPA extends Fragment {
                 binding.optsSpinner10.setAdapter(adapter1);
 
             }
+        });
+        this.binding.reserText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                binding.numClassesNumber.setVisibility(View.VISIBLE);
+                binding.GPAScaleSpinner.setVisibility(View.VISIBLE);
+                binding.goButton.setVisibility(View.VISIBLE);
+                binding.units1.setText("");
+                binding.units2.setText("");
+                binding.units3.setText("");
+                binding.units4.setText("");
+                binding.units5.setText("");
+                binding.units6.setText("");
+                binding.units7.setText("");
+                binding.units8.setText("");
+                binding.units9.setText("");
+                binding.units10.setText("");
+                binding.units1.setVisibility(View.INVISIBLE);
+                binding.units2.setVisibility(View.INVISIBLE);
+                binding.units3.setVisibility(View.INVISIBLE);
+                binding.units4.setVisibility(View.INVISIBLE);
+                binding.units5.setVisibility(View.INVISIBLE);
+                binding.units6.setVisibility(View.INVISIBLE);
+                binding.units7.setVisibility(View.INVISIBLE);
+                binding.units8.setVisibility(View.INVISIBLE);
+                binding.units9.setVisibility(View.INVISIBLE);
+                binding.units10.setVisibility(View.INVISIBLE);
+                binding.optsSpinner1.setVisibility(View.INVISIBLE);
+                binding.optsSpinner2.setVisibility(View.INVISIBLE);
+                binding.optsSpinner3.setVisibility(View.INVISIBLE);
+                binding.optsSpinner4.setVisibility(View.INVISIBLE);
+                binding.optsSpinner5.setVisibility(View.INVISIBLE);
+                binding.optsSpinner6.setVisibility(View.INVISIBLE);
+                binding.optsSpinner7.setVisibility(View.INVISIBLE);
+                binding.optsSpinner8.setVisibility(View.INVISIBLE);
+                binding.optsSpinner9.setVisibility(View.INVISIBLE);
+                binding.optsSpinner10.setVisibility(View.INVISIBLE);
+                binding.yourgpaTEXT.setVisibility(View.INVISIBLE);
+                binding.reserText.setVisibility(View.INVISIBLE);
+                binding.CalcSingleSemGPA.setVisibility(View.INVISIBLE);
+                gpaarray.clear();
+                tracky[0] = false;
+
+            }
+
         });
         this.binding.backbutton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -3,13 +3,18 @@
 
     <item
         android:id="@+id/navigation_home"
+        android:iconTint="#FFFFFF"
+        android:drawable="@android:color/holo_blue_bright"
         android:icon="@drawable/ic_home_black_24dp"
+        android:state_checked="true"
         android:title="@string/title_home" />
-
+<!--
     <item
         android:id="@+id/navigation_dashboard"
+        android:iconTint="#FFFFFF"
+        android:background="#505C9F"
         android:icon="@drawable/ic_baseline_emoji_people_24"
         android:title="@string/title_profile" />
-
+-->
 
 </menu>

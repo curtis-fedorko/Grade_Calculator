@@ -4,40 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#505C9F"
+    android:background="#548E88"
     tools:context=".ui.home.HomeFragment">
 
     <Spinner
         android:id="@+id/opts_spinner"
-        android:layout_width="152dp"
-        android:layout_height="30dp"
-        android:background="#6F98B8"
-        android:backgroundTint="#6F98B8"
+        android:layout_width="187dp"
+        android:layout_height="62dp"
+        android:background="#155875"
+        android:backgroundTint="#155875"
+        android:gravity="center"
         android:textColor="#F6F6F5"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintVertical_bias="0.412" />
 
     <TextView
         android:id="@+id/text_home"
-        android:layout_width="379dp"
-        android:layout_height="89dp"
+        android:layout_width="362dp"
+        android:layout_height="175dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="#6F98B8"
+        android:background="@drawable/drawable_textview"
+        android:gravity="center"
+        android:shape="oval"
         android:text="@string/welcome_text"
         android:textAlignment="center"
         android:textColor="#F6F6F5"
-        android:textSize="34sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052" />
+        app:layout_constraintVertical_bias="0.039" />
 </androidx.constraintlayout.widget.ConstraintLayout>
