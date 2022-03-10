@@ -336,7 +336,7 @@ public class CumulativeGPA extends Fragment {
                     binding.yourgpaTEXT.setText(gpas);
                     binding.yourgpaTEXT.setVisibility(View.VISIBLE);
                     binding.GPAAffect.setVisibility(View.VISIBLE);
-                    activity.SetOnFurther(gpa, listy);
+                    activity.SetOnFurther(gpa, units, listy);
                 };
 
             }

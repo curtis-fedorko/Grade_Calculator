@@ -20,8 +20,9 @@ public class MainActivity extends AppCompatActivity implements IMainView.Listene
 
     private ActivityMainBinding binding;
     private IMainView mainview;
-    public double gpas;
+    public ArrayList<Double> units;
     public ArrayList<Double> listy;
+    public double gpas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,9 +111,10 @@ public class MainActivity extends AppCompatActivity implements IMainView.Listene
         this.mainview.displayFragment(f);
     }
 
-    public void SetOnFurther(double gpas, ArrayList<Double> listy) {
-        this.gpas = gpas;
+    public void SetOnFurther(double gpas, ArrayList<Double> units, ArrayList<Double> listy) {
+        this.units = units;
         this.listy = listy;
+        this.gpas = gpas;
     }
 
     public void onFurther() {

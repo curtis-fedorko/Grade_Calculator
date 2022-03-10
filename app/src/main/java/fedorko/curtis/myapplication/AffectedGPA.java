@@ -630,7 +630,10 @@ public class AffectedGPA extends Fragment {
                 catch(NumberFormatException e) {
                     double gpa1 = activity.calcGpa(gpaarray, scale, units);
                     activity.listy.add(gpa1);
-                    double gpa = activity.calcCumulativeGPA(activity.listy, units);
+                    double unitsum = 0;
+                    for(int i = 0; i < units.size(); i++){unitsum += units.get(i);}
+                    activity.units.add(unitsum);
+                    double gpa = activity.calcCumulativeGPA(activity.listy, activity.units);
                     String texty = "Your GPA is " + (float)gpa;
                     activity.listy.remove(gpa1);
                    // gpa = 0;
