@@ -22,6 +22,7 @@
         <entry key="app/src/main/res/layout/fragment_finalgradecalculator.xml" value="0.125" />
         <entry key="app/src/main/res/layout/fragment_g_p_a_question.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_g_p_acalc.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_gpa_resource.xml" value="0.11702127659574468" />
         <entry key="app/src/main/res/layout/fragment_grade_course.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.25" />

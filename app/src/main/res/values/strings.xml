@@ -35,6 +35,19 @@
     <string name="GPA_scale">What is your GPA scale</string>
     <string name="affect_gpa_welcome">GPA affect calculator</string>
     <string name="parts_of_grade_string">How many parts make up your grade?</string>
+    <string name="fouro_resource">4.0: <br />
+    A+/A = 4.0 <br />
+    A- = 3.7 <br />
+    B+ = 3.3 <br />
+    B = 3.0 <br />
+    B- = 2.7 <br />
+    C+ = 2.3 <br />
+    C = 2.0  <br />
+    C- = 1.7 <br />
+    D+ = 1.3 <br />
+    D = 1.0  <br />
+    D- = .7  <br />
+    F = 0</string>
     <string name="course_grade_welcome">Welcome to the Course grade Calculator</string>
     <string-array name="choices_array">
         <item>Our Calculators:</item>
